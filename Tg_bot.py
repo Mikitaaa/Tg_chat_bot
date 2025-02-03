@@ -13,7 +13,7 @@ config = load_config('config.txt')
 bot_token = config['bot_token']
 allowed_ID_Chats = set(map(int, config['allowed_ID_Chats'].split(',')))
 
-Image_action_keywords = {"создай", "сгенерируй", "нарисуй"}
+Image_action_keywords = {"создай", "сгенерируй", "нарисуй", "сделай"}
 Image_type_keywords = {"фото", "фотку", "изображение", "рисунок"}
 
 lastUpdateTime = time.time()
